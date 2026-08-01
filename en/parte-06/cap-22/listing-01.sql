@@ -1,0 +1,4 @@
+ALTER TABLE users
+ADD password VARCHAR(255) NULL,
+ADD role_type VARCHAR(20) NOT NULL DEFAULT 'user',
+ADD updated_at DATETIME NULL;
