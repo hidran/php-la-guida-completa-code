@@ -1,0 +1,7 @@
+<?php
+
+'Hello world';   // expresión evaluada, pero sin output
+3.1415;          // idem
+
+echo 'Hello world';   // Hello world
+echo 3.1415;          // 3.1415
