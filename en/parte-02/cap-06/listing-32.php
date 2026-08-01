@@ -1,2 +1,2 @@
 <?php
-$name = 'Johnn';
+$name = 'John';

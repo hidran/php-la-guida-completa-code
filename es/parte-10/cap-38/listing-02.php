@@ -10,7 +10,7 @@ try {
     $mail->Port = 1025;
 
     $mail->setFrom("noreply@example.com", "PHP Guida");
-    $mail->addAddress("mario@example.com");
+    $mail->addAddress("juan@example.com");
 
     $mail->Subject = "Bienvenido";
     $mail->Body = "Gracias por registrarte.";

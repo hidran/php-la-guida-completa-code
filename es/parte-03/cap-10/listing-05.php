@@ -1,3 +1,3 @@
 $sayHi = function () {
-    echo 'Hey';
+    echo 'Hola';
 };

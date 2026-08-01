@@ -1,8 +1,8 @@
 <?php
 $scores = [
-    "mario" => 12,
-    "lucia" => 18,
-    "anna" => 15,
+    "john" => 12,
+    "lucy" => 18,
+    "anne" => 15,
 ];
 
 asort($scores);

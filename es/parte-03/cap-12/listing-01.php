@@ -1,4 +1,4 @@
 <?php
-$names = ["Mario", "Lucia"];
+$names = ["Juan", "Lucía"];
 
-array_push($names, "Giulia");
+array_push($names, "Julia");

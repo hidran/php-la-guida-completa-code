@@ -1,4 +1,4 @@
 function getFullName(string $name, string $surname)
 {
-    echo "Full name is $name $surname";
+    echo "El nombre completo es $name $surname";
 }

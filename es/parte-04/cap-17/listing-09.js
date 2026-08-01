@@ -1,4 +1,4 @@
-const user = JSON.parse('{"name":"Mario"}');
+const user = JSON.parse('{"name":"Juan"}');
 console.log(user.name);
 
-const payload = JSON.stringify({ name: "Mario" });
+const payload = JSON.stringify({ name: "Juan" });

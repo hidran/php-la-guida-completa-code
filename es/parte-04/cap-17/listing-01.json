@@ -1,6 +1,6 @@
 {
-  "name": "Mario",
-  "email": "mario@example.com",
+  "name": "Juan",
+  "email": "juan@example.com",
   "roles": ["admin", "editor"],
   "active": true
 }

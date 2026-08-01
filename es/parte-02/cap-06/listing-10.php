@@ -1,2 +1,2 @@
-<h1>Hello World</h1>
+<h1>Hola Mundo</h1>
 <?php

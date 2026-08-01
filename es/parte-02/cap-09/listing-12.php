@@ -2,14 +2,14 @@
 
 $money = false;
 
-// switch: confronto debole
+// switch: comparación débil
 switch ($money) {
     case 0:
         echo 'No tienes dinero (switch)';
         break;
 }
 
-// match: confronto stretto
+// match: comparación estricta
 match ($money) {
     1 > 2 => print 'false',
     0     => print 'No tienes dinero',

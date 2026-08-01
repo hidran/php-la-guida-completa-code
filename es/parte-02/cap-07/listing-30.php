@@ -1,10 +1,10 @@
 <?php
 
-$name = 'Juann';
+$name = 'Juan';
 $bool = true;
 
-echo $name . ' Arias';   // Juann Arias
-echo $name . $bool;      // Juann1   (true → '1')
+echo $name . ' Arias';   // Juan Arias
+echo $name . $bool;      // Juan1   (true → '1')
 
 $bool = false;
-echo $name . $bool;      // Juann    (false → cadena vacía)
+echo $name . $bool;      // Juan    (false → cadena vacía)

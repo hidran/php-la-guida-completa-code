@@ -1,7 +1,7 @@
-function sayHello($name = 'World')
+function sayHello($name = 'mundo')
 {
-    echo "Hello $name";
+    echo "Hola $name";
 }
 
-sayHello();        // Hello World
+sayHello();        // Hola mundo
 sayHello('Juana');  // Hello Juana

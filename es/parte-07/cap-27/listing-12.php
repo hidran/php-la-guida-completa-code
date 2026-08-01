@@ -3,6 +3,6 @@ class Facade
 {
     public static function __callStatic(string $name, array $arguments): mixed
     {
-        // delega a un servizio reale
+        // delega en un servicio real
     }
 }

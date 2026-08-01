@@ -2,5 +2,5 @@
 
 function sayHello($name)
 {
-    echo "Hello $name";
+    echo "Hola $name";
 }

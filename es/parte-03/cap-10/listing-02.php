@@ -1,1 +1,1 @@
-sayHello(); // Hello world
+sayHello(); // Hola mundo

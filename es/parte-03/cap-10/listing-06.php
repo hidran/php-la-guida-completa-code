@@ -1,1 +1,1 @@
-$sayHi(); // Hey
+$sayHi(); // Hola

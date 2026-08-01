@@ -1,4 +1,4 @@
 <?php
-echo '<h1>Hello world</h1>';
+echo '<h1>Hola mundo</h1>';
 ?>
-<h2>Mi chiamo Juann</h2>
+<h2>Me llamo Juan</h2>

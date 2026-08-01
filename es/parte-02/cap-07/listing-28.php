@@ -5,7 +5,7 @@ var_dump((string) true);    // string(1) "1"
 var_dump((string) false);   // string(0) ""
 
 $bool = true;
-echo $bool;   // 1  (conversione automatica, senza cast)
+echo $bool;   // 1  (conversión automática, sin cast)
 
 $bool = false;
 echo $bool;   // (no se muestra nada: cadena vacía)

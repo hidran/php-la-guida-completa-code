@@ -1,2 +1,2 @@
 <?php
-fwrite(STDOUT, 'Johnn');
+fwrite(STDOUT, 'John');

@@ -1,8 +1,8 @@
 <?php
 
-$verify = 'Hello world';
-var_dump($verify);   // string(11) "Hello world"
+$verify = 'Hola mundo';
+var_dump($verify);   // string(10) "Hola mundo"
 
 if ($verify) {
-    echo 'Verify is true';   // se ejecuta!
+    echo 'La verificación es verdadera';   // se ejecuta!
 }

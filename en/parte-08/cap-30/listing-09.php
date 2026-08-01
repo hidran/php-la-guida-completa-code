@@ -1,6 +1,6 @@
 <?php
 try {
-    // codice applicativo
+    // application code
 } catch (Throwable $e) {
     // invia a Sentry
     throw $e;

@@ -1,4 +1,4 @@
 <?php
-// fwrite(STDOUT, 'Juann');
+// fwrite(STDOUT, 'Juan');
 2 + 2;
-echo 'Hello World';
+echo 'Hola Mundo';

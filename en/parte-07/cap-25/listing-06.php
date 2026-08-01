@@ -9,4 +9,4 @@ class User
     }
 }
 
-$user = new User("mario@example.com");
+$user = new User("john@example.com");

@@ -1,3 +1,3 @@
 <h1>Hello World</h1>
 <?php
-echo "My name is Johnn";
+echo "My name is John";

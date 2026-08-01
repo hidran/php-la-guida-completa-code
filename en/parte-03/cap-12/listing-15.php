@@ -4,4 +4,4 @@ function split_name(string $fullName): array
     return explode(" ", $fullName, 2);
 }
 
-[$firstName, $lastName] = split_name("Mario Rossi");
+[$firstName, $lastName] = split_name("John Smith");

@@ -1,7 +1,7 @@
 <?php
-$email = "  MARIO@Example.COM  ";
+$email = "  JOHN@Example.COM  ";
 
 $email = trim($email);
 $email = strtolower($email);
 
-echo $email; // mario@example.com
+echo $email; // john@example.com

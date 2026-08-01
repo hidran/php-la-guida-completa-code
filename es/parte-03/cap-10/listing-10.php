@@ -1,6 +1,6 @@
 function getFullName($name, $surname)
 {
-    echo "Full name is $name $surname";
+    echo "El nombre completo es $name $surname";
 }
 
-getFullName('Juana', 'Arias'); // Full name is Juana Arias
+getFullName('Juana', 'Arias'); // El nombre completo es Juana Arias

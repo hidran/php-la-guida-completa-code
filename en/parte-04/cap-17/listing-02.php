@@ -1,5 +1,5 @@
 <?php
-$json = '{"name":"Mario","active":true}';
+$json = '{"name":"John","active":true}';
 
 $data = json_decode($json, true);
 

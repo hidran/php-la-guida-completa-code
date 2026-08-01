@@ -4,4 +4,4 @@ function getFullName(string $name, string $surname, int $age)
 }
 
 // with named arguments, order does not matter:
-getFullName(age: 45, name: 'Maria', surname: 'Rossi');
+getFullName(age: 45, name: 'Mary', surname: 'Smith');

@@ -1,7 +1,7 @@
 <?php
 $user = [
-    "name" => "Mario",
-    "email" => "mario@example.com",
+    "name" => "John",
+    "email" => "john@example.com",
 ];
 
 ["name" => $name, "email" => $email] = $user;

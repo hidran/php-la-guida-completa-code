@@ -2,7 +2,7 @@
 
 // $name nunca declarada     -> vacía (y sin warning!)
 $name = '';       // vacía
-$name = 'Juann'; // no vacía
+$name = 'Juan'; // no vacía
 $name = 0;        // vacía
 $name = '0';      // vacía — atención!
 $name = 0.0;      // vacía

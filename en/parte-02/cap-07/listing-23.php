@@ -1,5 +1,5 @@
 <?php
 
 echo nl2br("$name $lastName\n$address");
-// Sorgente generato: Johnn Arias<br />
+// Generated source: John Arias<br />
 // Main Street

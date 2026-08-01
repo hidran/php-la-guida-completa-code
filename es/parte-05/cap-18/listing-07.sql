@@ -1,4 +1,4 @@
 INSERT INTO users (first_name, last_name, email)
 VALUES
-  ('Lucia', 'Bianchi', 'lucia@example.com'),
-  ('Anna', 'Verdi', 'anna@example.com');
+  ('Lucía', 'López', 'lucia.lopez@example.com'),
+  ('Ana', 'Torres', 'ana@example.com');

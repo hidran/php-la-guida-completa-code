@@ -1,3 +1,3 @@
 <?php
-array_unshift($names, "Anna");
+array_unshift($names, "Ana");
 $first = array_shift($names);

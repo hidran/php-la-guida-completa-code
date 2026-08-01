@@ -1,2 +1,2 @@
 <?php
-$names[] = "Giulia";
+$names[] = "Julia";

@@ -1,3 +1,3 @@
 <?php
-$name = 'Juann';
+$name = 'Juan';
 file_put_contents('text.txt', $name);

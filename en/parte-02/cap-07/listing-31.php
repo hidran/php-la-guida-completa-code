@@ -1,6 +1,6 @@
 <?php
 
-$name = 'Johnn';
+$name = 'John';
 $lastName = 'Arias';
 $address = 'Main Street';
 

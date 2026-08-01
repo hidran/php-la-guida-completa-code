@@ -3,6 +3,6 @@ $text = "Hola {name}, bienvenido a {course}.";
 
 echo str_replace(
     ["{name}", "{course}"],
-    ["Mario", "PHP"],
+    ["Juan", "PHP"],
     $text
 );

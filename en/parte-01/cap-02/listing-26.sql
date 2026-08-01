@@ -1,1 +1,1 @@
-UPDATE test_table SET name = 'Johnn Arias' WHERE id = 1;
+UPDATE test_table SET name = 'John Arias' WHERE id = 1;

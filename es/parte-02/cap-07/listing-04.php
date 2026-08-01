@@ -1,7 +1,7 @@
 <?php
 
-$name = 'Juann';      // valido
-$_name = 'Juann';     // valido
-$name2 = 'Juann';     // valido
-// $2name = 'Juann';  // ERROR: no puede empezar con un número
-// $last name = '...'; // ERROR: niente spazi
+$name = 'Juan';      // válido
+$_name = 'Juan';     // válido
+$name2 = 'Juan';     // válido
+// $2name = 'Juan';  // ERROR: no puede empezar con un número
+// $last name = '...'; // ERROR: sin espacios

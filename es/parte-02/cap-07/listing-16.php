@@ -3,10 +3,10 @@
 $verify = false;
 
 if ($verify == true) {
-    echo 'Verify is true';
+    echo 'La verificación es verdadera';
 } else {
-    echo 'Verify is false';
+    echo 'La verificación es falsa';
 }
-// Output: Verify is false
+// Salida: La verificación es falsa
 
 var_dump($verify);   // bool(false)

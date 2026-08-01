@@ -1,5 +1,5 @@
 <?php
 function run(Logger $logger): void
 {
-    $logger->info("Avvio applicazione");
+    $logger->info("Inicio de la aplicación");
 }

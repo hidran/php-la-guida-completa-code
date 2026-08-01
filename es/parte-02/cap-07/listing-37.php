@@ -1,6 +1,6 @@
 <?php
 
-$name = 'Juann';
+$name = 'Juan';
 
 $code = <<<'EOD'
 Mi nombre es $name <br>
