@@ -1,0 +1,2 @@
+cd intro
+ls -al

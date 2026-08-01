@@ -1,0 +1,1 @@
+php variabili/index.php
