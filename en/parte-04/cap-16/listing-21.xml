@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<movies>
+  <movie>
+    <title>Batman</title>
+    <year>1989</year>
+    <director>Tim Burton</director>
+    <plot>Il Cavaliere Oscuro difende Gotham City dal Joker.</plot>
+  </movie>
+  <movie>
+    <title>Alien</title>
+    <year>1979</year>
+    <director>Ridley Scott</director>
+    <plot>L'equipaggio della Nostromo affronta una creatura letale.</plot>
+  </movie>
+</movies>

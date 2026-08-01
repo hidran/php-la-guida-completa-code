@@ -1,0 +1,4 @@
+object(SimpleXMLElement)#5 (1) {
+  [0]=>
+  string(28) "First article title…"
+}

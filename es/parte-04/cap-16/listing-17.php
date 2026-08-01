@@ -1,0 +1,1 @@
+$root = $dom->createElement('movies');

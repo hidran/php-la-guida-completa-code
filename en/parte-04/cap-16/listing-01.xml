@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>SitePoint</title>
+    <link>https://www.sitepoint.com</link>
+    <description>Learn HTML, CSS, JavaScript, PHP, Ruby and more</description>
+    <item>
+      <title>First article title</title>
+      <link>https://www.sitepoint.com/first-article/</link>
+      <description>First article summary…</description>
+    </item>
+    <item>
+      <title>Second article title</title>
+      <link>https://www.sitepoint.com/second-article/</link>
+      <description>Second article summary…</description>
+    </item>
+    <!-- …altri item… -->
+  </channel>
+</rss>

@@ -1,0 +1,1 @@
+$dom->appendChild($root);
