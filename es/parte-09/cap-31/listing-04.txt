@@ -1,0 +1,14 @@
+blog/
+  public/
+    index.php
+    .htaccess
+  src/
+    Controllers/
+    Models/
+    Core/
+  views/
+    layout.php
+    posts/
+  config/
+    routes.php
+  vendor/
