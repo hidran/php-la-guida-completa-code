@@ -1,5 +1,5 @@
 <?php
 
-include 'functions2.php'; // questo file non esiste
+include 'functions2.php'; // this file does not exist
 
 print_r($data);

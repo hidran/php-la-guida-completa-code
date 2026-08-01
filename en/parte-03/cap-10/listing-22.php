@@ -9,4 +9,4 @@ function test()
 }
 
 run('test');                       // pass the name as a string
-run(function () { echo "anon\n"; }); // passiamo una funzione anonima
+run(function () { echo "anon\n"; }); // pass an anonymous function

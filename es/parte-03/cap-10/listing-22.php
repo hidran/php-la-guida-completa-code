@@ -9,4 +9,4 @@ function test()
 }
 
 ejecutar('test');                       // pasamos el nombre como string
-ejecutar(function () { echo "anon\n"; }); // passiamo una funzione anonima
+ejecutar(function () { echo "anon\n"; }); // pasamos una función anónima

@@ -1,3 +1,3 @@
-var_dump(null == false); // bool(true)  — il cast li rende uguali
-var_dump(null == '');    // bool(true)  — la stringa empty "vale" null
-var_dump(null == '0');   // bool(false) — la stringa '0' NON è uguale a null
+var_dump(null == false); // bool(true)  — casting makes them equal
+var_dump(null == '');    // bool(true)  — la empty string "vale" null
+var_dump(null == '0');   // bool(false) — the string '0' is NOT equal to null

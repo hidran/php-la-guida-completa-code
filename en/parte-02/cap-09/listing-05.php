@@ -3,11 +3,11 @@
 $money = 30;
 
 if ($money <= 10) {
-    echo 'Puoi comprare una pizza';
+    echo 'You can buy a pizza';
 } elseif ($money > 10 && $money <= 20) {
-    echo 'Puoi comprare una pizza e una birra';
+    echo 'You can buy a pizza and a beer';
 } elseif ($money > 20 && $money <= 30) {
-    echo 'Puoi andare al ristorante';
+    echo 'You can go to a restaurant';
 } else {
-    echo 'Puoi portare un amico al ristorante';
+    echo 'You can bring a friend to the restaurant';
 }

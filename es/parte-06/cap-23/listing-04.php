@@ -3,6 +3,6 @@ echo json_encode([
     "success" => false,
     "errors" => [
         "email" => "Email no válida",
-        "password" => "Password obbligatoria",
+        "password" => "La contraseña es obligatoria",
     ],
 ]);

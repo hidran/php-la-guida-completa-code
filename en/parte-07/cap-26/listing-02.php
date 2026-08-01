@@ -1,8 +1,8 @@
 <?php
-class Gatto extends Animale
+class Cat extends Animal
 {
-    public function dorme(): string
+    public function sleeps(): string
     {
-        return "il gatto dorme sul divano";
+        return "the cat sleeps on the sofa";
     }
 }

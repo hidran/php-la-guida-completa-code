@@ -1,8 +1,8 @@
 <?php
 
 if (isset($name)) {
-    echo "$name esiste";
+    echo "$name exists";
 } else {
-    echo 'La variabile non esiste';
+    echo 'The variable does not exist';
 }
-// Output: La variabile non esiste
+// Output: The variable does not exist

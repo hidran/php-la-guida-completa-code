@@ -2,4 +2,4 @@
 <?php
 echo "<h3>My name is Johnn</h3>";
 ?>
-<p>PHP è super</p>
+<p>PHP is great</p>

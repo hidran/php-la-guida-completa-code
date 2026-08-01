@@ -5,4 +5,4 @@ $r = 20;
 
 $area = $pi * $r * $r;
 
-echo "L'area è $area\n";
+echo "El área es $area\n";

@@ -1,7 +1,7 @@
 <?php
 
 if (empty($name)) {
-    echo 'name è vacía';
+    echo 'name está vacía';
 } else {
-    echo "name non è vacía ed è uguale a $name";
+    echo "name no está vacía y es igual a $name";
 }

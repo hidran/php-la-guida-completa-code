@@ -4,10 +4,10 @@ $h = 1;
 $i = $g <=> $h;
 
 if ($i === 0) {
-    echo 'g e h sono uguali';
+    echo 'g y h son iguales';
 } elseif ($i === -1) {
-    echo 'g è minore di h';
+    echo 'g es menor que h';
 } else {
-    echo 'g è maggiore di h';
+    echo 'g es mayor que h';
 }
-// Output: g è maggiore di h
+// Output: g es mayor que h

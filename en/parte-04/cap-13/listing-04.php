@@ -1,7 +1,7 @@
 function test()
 {
-    $testGlobal = 'test funzione';
+    $testGlobal = 'function test';
 
-    echo $testGlobal;              // "test funzione"  → variabile locale
-    echo $GLOBALS['testGlobal'];   // "Questa è una variabile globale" → globale
+    echo $testGlobal;              // "function test"  → local variable
+    echo $GLOBALS['testGlobal'];   // "This is a global variable" → global
 }

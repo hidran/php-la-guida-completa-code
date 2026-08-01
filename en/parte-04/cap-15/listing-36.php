@@ -1,4 +1,4 @@
 require_once 'functions.php';
-require_once 'functions.php'; // ignorato: già incluso
+require_once 'functions.php'; // ignored: already included
 
 dd($data);

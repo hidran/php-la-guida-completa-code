@@ -1,8 +1,8 @@
 <?php
 
-$verify = 'false';   // stringa di 5 caratteri, NON il boolean false
+$verify = 'false';   // 5-character string, NOT the Boolean false
 var_dump($verify);   // string(5) "false"
 
 if ($verify) {
-    echo 'Passa dal ramo true!';   // sì: una stringa non empty è true
+    echo 'Enters the true branch!';   // yes: a non-empty string is true
 }

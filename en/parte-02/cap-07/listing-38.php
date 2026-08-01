@@ -4,8 +4,8 @@ function getList()
 {
     $content = <<<EOD
         <ul>
-            <li>uno</li>
-            <li>due</li>
+            <li>one</li>
+            <li>two</li>
         </ul>
         EOD;
 

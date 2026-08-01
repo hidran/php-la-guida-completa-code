@@ -3,4 +3,4 @@ function sum(?int $a = null, ?int $b = null): ?int
     // ...
 }
 
-sum(); // ora è lecito
+sum(); // now it is valid

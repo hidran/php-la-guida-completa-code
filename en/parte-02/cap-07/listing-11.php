@@ -1,8 +1,8 @@
 <?php
 
-$oct = 0124;         // ottale: prefisso 0
-$hex = 0xDE;         // esadecimale: prefisso 0x
-$bin = 0b11111111;   // binario: prefisso 0b
+$oct = 0124;         // octal: 0 prefix
+$hex = 0xDE;         // hexadecimal: 0x prefix
+$bin = 0b11111111;   // binary: 0b prefix
 
 var_dump($oct);   // int(84)
 var_dump($hex);   // int(222)

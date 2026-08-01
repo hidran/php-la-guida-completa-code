@@ -1,15 +1,15 @@
 <?php
-class Animale
+class Animal
 {
-    public function dorme(): string
+    public function sleeps(): string
     {
         return "zzz";
     }
 }
 
-class Cane extends Animale
+class Dog extends Animal
 {
-    public function abbaia(): string
+    public function barks(): string
     {
         return "bau";
     }

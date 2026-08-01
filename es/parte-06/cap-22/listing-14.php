@@ -5,6 +5,6 @@ function require_role(string $role): void
 
     if (($_SESSION["role_type"] ?? null) !== $role) {
         http_response_code(403);
-        exit("Accesso negato");
+        exit("Acceso denegado");
     }
 }

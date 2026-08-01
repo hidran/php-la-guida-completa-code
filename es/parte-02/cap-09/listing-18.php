@@ -5,7 +5,7 @@ $total = count($ar);
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Ciclo while</title>
+    <title>Bucle while</title>
     <style>
         body {
             background: #ccc;

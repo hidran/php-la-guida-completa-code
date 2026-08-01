@@ -1,3 +1,3 @@
 $hd = fopen($fileName, 'a');
-fwrite($hd, 'Seconda scrittura su file');
+fwrite($hd, 'Second write to file');
 fclose($hd);

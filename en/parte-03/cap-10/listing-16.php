@@ -1,7 +1,7 @@
-function calcAreaPerimetro(int $a, int $b): array
+function calculateAreaPerimeter(int $a, int $b): array
 {
     $area = $a * $b;
-    $perimetro = 2 * ($a + $b);
+    $perimeter = 2 * ($a + $b);
 
-    return [$area, $perimetro];
+    return [$area, $perimeter];
 }

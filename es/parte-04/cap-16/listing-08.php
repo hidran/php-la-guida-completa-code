@@ -8,7 +8,7 @@ $xml = simplexml_load_string($content);
 <html lang="it">
 <head>
     <meta charset="UTF-8">
-    <title>Il feed di SitePoint</title>
+    <title>El feed de SitePoint</title>
 </head>
 <body>
 <section>

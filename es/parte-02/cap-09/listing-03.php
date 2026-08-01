@@ -1,3 +1,3 @@
 if (!$money) {
-    echo 'Non hai dei soldi';
+    echo 'No tienes dinero';
 }

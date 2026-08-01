@@ -3,8 +3,8 @@
 $name = null;
 
 if (is_null($name)) {
-    echo 'name è null';
+    echo 'name es null';
 } else {
-    echo 'name non è null';
+    echo 'name no es null';
 }
-// Output: name è null
+// Output: name es null

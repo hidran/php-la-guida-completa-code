@@ -1,1 +1,1 @@
-var_dump(0 == '0'); // bool(true) — in tutte le versioni
+var_dump(0 == '0'); // bool(true) — en todas las versiones

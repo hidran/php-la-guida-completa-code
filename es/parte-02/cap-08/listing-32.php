@@ -1,5 +1,5 @@
 if ($val1 === $val2) {
-    echo 'sono uguali';
+    echo 'son iguales';
 } else {
-    echo 'sono diversi';
+    echo 'son diferentes';
 }

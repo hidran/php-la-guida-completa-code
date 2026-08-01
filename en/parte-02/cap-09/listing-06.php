@@ -1,7 +1,7 @@
 <?php $money = 35; ?>
 
 <?php if ($money): ?>
-    <h2>Hai dei soldi</h2>
+    <h2>You have money</h2>
 <?php else: ?>
-    <h2>Non hai dei soldi</h2>
+    <h2>You have no money</h2>
 <?php endif; ?>

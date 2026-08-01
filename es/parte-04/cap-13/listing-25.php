@@ -2,5 +2,5 @@ session_start();
 
 $_SESSION['user_id'] = 4;
 
-// ...finito di lavorare sulla sessione:
+// ...terminamos de trabajar con la sesión:
 session_write_close();

@@ -1,2 +1,2 @@
 <?php
-return parent::dorme() . " sul divano";
+return parent::sleeps() . " on the sofa";

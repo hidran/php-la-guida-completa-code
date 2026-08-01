@@ -4,12 +4,12 @@ $films = [
         'title'    => 'Batman',
         'year'     => 1989,
         'director' => 'Tim Burton',
-        'plot'     => 'Il Cavaliere Oscuro difende Gotham City dal Joker.',
+        'plot'     => 'El Caballero Oscuro defiende Gotham City del Joker.',
     ],
     [
         'title'    => 'Alien',
         'year'     => 1979,
         'director' => 'Ridley Scott',
-        'plot'     => "L'equipaggio della Nostromo affronta una creatura letale.",
+        'plot'     => "La tripulación del Nostromo se enfrenta a una criatura letal.",
     ],
 ];

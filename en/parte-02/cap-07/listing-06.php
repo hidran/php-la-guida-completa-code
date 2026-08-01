@@ -1,4 +1,4 @@
 <?php
 
 $r = 20;
-$r = 'una lettera';   // in PHP è lecito
+$r = 'a letter';   // valid in PHP

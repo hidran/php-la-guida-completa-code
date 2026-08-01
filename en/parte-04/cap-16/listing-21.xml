@@ -4,12 +4,12 @@
     <title>Batman</title>
     <year>1989</year>
     <director>Tim Burton</director>
-    <plot>Il Cavaliere Oscuro difende Gotham City dal Joker.</plot>
+    <plot>The Dark Knight defends Gotham City from the Joker.</plot>
   </movie>
   <movie>
     <title>Alien</title>
     <year>1979</year>
     <director>Ridley Scott</director>
-    <plot>L'equipaggio della Nostromo affronta una creatura letale.</plot>
+    <plot>The Nostromo crew faces a lethal creature.</plot>
   </movie>
 </movies>

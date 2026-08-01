@@ -18,6 +18,6 @@ class Router
         }
 
         http_response_code(404);
-        return "Pagina non trovata";
+        return "Page not found";
     }
 }

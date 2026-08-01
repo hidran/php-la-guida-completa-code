@@ -1,2 +1,2 @@
-Prima scrittura su file
-Seconda scrittura su file
+Primera escritura en archivo
+Segunda escritura en archivo

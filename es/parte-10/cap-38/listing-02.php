@@ -12,8 +12,8 @@ try {
     $mail->setFrom("noreply@example.com", "PHP Guida");
     $mail->addAddress("mario@example.com");
 
-    $mail->Subject = "Benvenuto";
-    $mail->Body = "Grazie per la registrazione.";
+    $mail->Subject = "Bienvenido";
+    $mail->Body = "Gracias por registrarte.";
 
     $mail->send();
 } catch (Exception $e) {

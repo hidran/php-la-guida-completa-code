@@ -5,5 +5,5 @@ $mime = $finfo->file($_FILES["avatar"]["tmp_name"]);
 $allowed = ["image/jpeg", "image/png", "image/webp"];
 
 if (!in_array($mime, $allowed, true)) {
-    $errors["avatar"] = "Formato immagine non supportato";
+    $errors["avatar"] = "Formato de imagen no compatible";
 }

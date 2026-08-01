@@ -3,7 +3,7 @@
 $accounts = [2, 3];
 
 $data = <<<EOD
-Il primo conto è $accounts[0]
+La primera cuenta es $accounts[0]
 EOD;
 
-echo $data;   // Il primo conto è 2
+echo $data;   // La primera cuenta es 2

@@ -2,4 +2,4 @@
 
 array_push($ar['DIAS'], 'miércoles');
 var_dump($ar['DIAS']);
-// lunes, martes, miércoles — miércoles è andato en la posición successiva (2)
+// lunes, martes, miércoles — miércoles ha pasado a la posición siguiente (2)

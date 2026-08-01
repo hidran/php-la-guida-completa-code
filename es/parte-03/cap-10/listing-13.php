@@ -1,7 +1,7 @@
 function getFullName(string $name, string $surname, int $age)
 {
-    echo "$name $surname, $age anni";
+    echo "$name $surname, $age años";
 }
 
-// con i named argument l'ordine non conta:
+// con argumentos con nombre, el orden no importa:
 getFullName(age: 45, name: 'Maria', surname: 'Rossi');

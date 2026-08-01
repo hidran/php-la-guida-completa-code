@@ -1,2 +1,2 @@
 echo $xml->channel->title;       // SitePoint
-echo $xml->channel->description; // la descrizione del feed
+echo $xml->channel->description; // la descripción del feed

@@ -1,5 +1,5 @@
 if ($hd) {
-    fwrite($hd, 'Prima scrittura su file');
+    fwrite($hd, 'Primera escritura en archivo');
 } else {
-    echo 'Impossibile creare il file';
+    echo 'No se puede crear el archivo';
 }

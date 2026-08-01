@@ -4,7 +4,7 @@ await fetch("/api/posts", {
     "Content-Type": "application/json"
   },
   body: JSON.stringify({
-    title: "Nuovo post",
-    body: "Contenuto"
+    title: "Nuevo post",
+    body: "Contenido"
   })
 });

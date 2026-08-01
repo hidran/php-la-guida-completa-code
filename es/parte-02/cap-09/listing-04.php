@@ -1,5 +1,5 @@
 if ($money) {
-    echo 'Hai dei soldi';
+    echo 'Tienes dinero';
 } else {
-    echo 'Non hai dei soldi';
+    echo 'No tienes dinero';
 }

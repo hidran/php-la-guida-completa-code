@@ -1,6 +1,6 @@
 <?php
 
-$testGlobal = 'Questa è una variabile globale';
+$testGlobal = 'This is a global variable';
 
 function test()
 {

@@ -1,1 +1,1 @@
-fwrite($hd, 'Prima scrittura su file' . "\n");
+fwrite($hd, 'First write to file' . "\n");

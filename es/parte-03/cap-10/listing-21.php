@@ -4,4 +4,4 @@ function suma(int $a, int $b, array $c): int
 }
 
 suma(5, 5, []);          // ok: array vacío
-suma(5, 5, 'non array'); // TypeError: el tercer argumento no es un array
+suma(5, 5, 'no es un array'); // TypeError: el tercer argumento no es un array

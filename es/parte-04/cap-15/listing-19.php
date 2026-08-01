@@ -1,5 +1,5 @@
 foreach ($d as $entry) {
-    // saltiamo la cartella corrente e la parent
+    // omitimos la carpeta actual y la carpeta padre
     if ($entry == '.' || $entry == '..') {
         continue;
     }

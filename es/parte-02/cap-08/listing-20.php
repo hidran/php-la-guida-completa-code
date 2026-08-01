@@ -1,8 +1,8 @@
 $age = 16;
 
 if ($age >= 18) {
-    echo 'Sei maggiorenne';
+    echo 'Eres mayor de edad';
 } else {
-    echo 'Sei minorenne';
+    echo 'Eres menor de edad';
 }
-// Output: Sei minorenne
+// Output: Eres menor de edad

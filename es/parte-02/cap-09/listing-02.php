@@ -3,5 +3,5 @@
 $money = 30;
 
 if ($money) {
-    echo 'Hai dei soldi';
+    echo 'Tienes dinero';
 }

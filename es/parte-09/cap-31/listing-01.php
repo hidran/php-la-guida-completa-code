@@ -5,6 +5,6 @@ class Post
 {
     public function all(): array
     {
-        // legge i post dal database
+        // lee los posts desde la base de datos
     }
 }

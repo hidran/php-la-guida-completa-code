@@ -8,4 +8,4 @@ $bool = true;
 echo $bool;   // 1  (conversione automatica, senza cast)
 
 $bool = false;
-echo $bool;   // (non si vede niente: stringa vacía)
+echo $bool;   // (no se muestra nada: cadena vacía)

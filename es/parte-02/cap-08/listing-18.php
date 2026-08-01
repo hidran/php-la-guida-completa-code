@@ -1,3 +1,3 @@
-var_dump('a' != 'b'); // bool(true)  — sono diverse
-var_dump('a' == 'b'); // bool(false) — non sono uguali
-var_dump('a' !== 'b'); // bool(true) — stesso tipo, ma valori diversi
+var_dump('a' != 'b'); // bool(true)  — son diferentes
+var_dump('a' == 'b'); // bool(false) — no son iguales
+var_dump('a' !== 'b'); // bool(true) — mismo tipo, pero valores diferentes
