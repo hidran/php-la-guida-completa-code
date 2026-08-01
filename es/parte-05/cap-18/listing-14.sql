@@ -1,0 +1,2 @@
+ALTER TABLE users
+ADD role_type VARCHAR(20) NOT NULL DEFAULT 'user';
