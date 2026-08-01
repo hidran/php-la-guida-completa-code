@@ -1,0 +1,1 @@
+$hd = fopen($fileName, 'w');

@@ -1,0 +1,1 @@
+$it = new DirectoryIterator($dir);

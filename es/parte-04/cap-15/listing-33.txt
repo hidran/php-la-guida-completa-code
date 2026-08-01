@@ -1,0 +1,2 @@
+PHP Warning:  include(functions2.php): Failed to open stream:
+No such file or directory

@@ -1,0 +1,7 @@
+array(5) {
+  [0]=> string(1) "."
+  [1]=> string(2) ".."
+  [2]=> string(10) "myfile.txt"
+  [3]=> string(9) "test.html"
+  [4]=> string(8) "test.txt"
+}
