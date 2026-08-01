@@ -1,0 +1,6 @@
+{
+  "scripts": {
+    "start": "php -S localhost:8000 -t public",
+    "autoload": "composer dump-autoload"
+  }
+}
