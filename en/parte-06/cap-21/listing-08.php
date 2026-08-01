@@ -1,0 +1,2 @@
+<?php
+$avatarPath = "uploads/" . $filename;
