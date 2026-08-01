@@ -1,0 +1,3 @@
+$sayHi = function () {
+    echo 'Hey';
+};
