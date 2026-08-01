@@ -1,0 +1,2 @@
+PHP Fatal error:  Uncaught UnhandledMatchError:
+Unhandled match case of type string
