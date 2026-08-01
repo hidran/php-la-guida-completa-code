@@ -1,0 +1,4 @@
+SHOW DATABASES;
+USE test;
+SHOW TABLES;
+SELECT * FROM test_table;
