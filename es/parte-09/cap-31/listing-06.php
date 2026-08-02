@@ -1,21 +1,21 @@
 <?php
 
-declare(strict_types=1);
-
-namespace App\Support;
-
-use RuntimeException;
-
-final class Env
+public function findByPostId(int $postId)
 {
-    public static function int(string $key, ?int $default = null): int
-    {
-        $raw = self::string($key, $default === null ? null : (string) $default);
+    $ret = [];
 
-        if (!preg_match('/^-?\d+$/', $raw)) {
-            throw new RuntimeException("Env var {$key} is not an integer: {$raw}");
+    $sql = 'select p.* , u.email from posts as p INNER JOIN users as u';
+    $sql .= ' ON u.id=p.user_id where p.id = :id';
+
+    $stm = $this->conn->prepare($sql);
+
+    if ($stm) {
+        $res = $stm->execute(['id' => $postId]);
+
+        if ($res) {
+            $ret = $stm->fetch();
         }
-
-        return (int) $raw;
     }
+
+    return $ret;
 }

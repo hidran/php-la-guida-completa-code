@@ -5124,37 +5124,37 @@
     "edition": "it",
     "source_markdown": "parte-09/cap-31.md",
     "listing": 1,
-    "fence_language": "bash",
-    "repo_path": "it/parte-09/cap-31/listing-01.sh",
-    "tag": "localized-v4-chapter-31",
-    "url": "https://github.com/hidran/php-la-guida-completa-code/blob/localized-v4-chapter-31/it/parte-09/cap-31/listing-01.sh"
+    "fence_language": "text",
+    "repo_path": "it/parte-09/cap-31/listing-01.txt",
+    "tag": "localized-v5-chapter-31",
+    "url": "https://github.com/hidran/php-la-guida-completa-code/blob/localized-v5-chapter-31/it/parte-09/cap-31/listing-01.txt"
   },
   {
     "edition": "it",
     "source_markdown": "parte-09/cap-31.md",
     "listing": 2,
-    "fence_language": "bash",
-    "repo_path": "it/parte-09/cap-31/listing-02.sh",
-    "tag": "localized-v4-chapter-31",
-    "url": "https://github.com/hidran/php-la-guida-completa-code/blob/localized-v4-chapter-31/it/parte-09/cap-31/listing-02.sh"
+    "fence_language": "php",
+    "repo_path": "it/parte-09/cap-31/listing-02.php",
+    "tag": "localized-v5-chapter-31",
+    "url": "https://github.com/hidran/php-la-guida-completa-code/blob/localized-v5-chapter-31/it/parte-09/cap-31/listing-02.php"
   },
   {
     "edition": "it",
     "source_markdown": "parte-09/cap-31.md",
     "listing": 3,
-    "fence_language": "json",
-    "repo_path": "it/parte-09/cap-31/listing-03.json",
-    "tag": "localized-v4-chapter-31",
-    "url": "https://github.com/hidran/php-la-guida-completa-code/blob/localized-v4-chapter-31/it/parte-09/cap-31/listing-03.json"
+    "fence_language": "php",
+    "repo_path": "it/parte-09/cap-31/listing-03.php",
+    "tag": "localized-v5-chapter-31",
+    "url": "https://github.com/hidran/php-la-guida-completa-code/blob/localized-v5-chapter-31/it/parte-09/cap-31/listing-03.php"
   },
   {
     "edition": "it",
     "source_markdown": "parte-09/cap-31.md",
     "listing": 4,
-    "fence_language": "text",
-    "repo_path": "it/parte-09/cap-31/listing-04.txt",
-    "tag": "localized-v4-chapter-31",
-    "url": "https://github.com/hidran/php-la-guida-completa-code/blob/localized-v4-chapter-31/it/parte-09/cap-31/listing-04.txt"
+    "fence_language": "php",
+    "repo_path": "it/parte-09/cap-31/listing-04.php",
+    "tag": "localized-v5-chapter-31",
+    "url": "https://github.com/hidran/php-la-guida-completa-code/blob/localized-v5-chapter-31/it/parte-09/cap-31/listing-04.php"
   },
   {
     "edition": "it",
@@ -5162,8 +5162,8 @@
     "listing": 5,
     "fence_language": "php",
     "repo_path": "it/parte-09/cap-31/listing-05.php",
-    "tag": "localized-v4-chapter-31",
-    "url": "https://github.com/hidran/php-la-guida-completa-code/blob/localized-v4-chapter-31/it/parte-09/cap-31/listing-05.php"
+    "tag": "localized-v5-chapter-31",
+    "url": "https://github.com/hidran/php-la-guida-completa-code/blob/localized-v5-chapter-31/it/parte-09/cap-31/listing-05.php"
   },
   {
     "edition": "it",
@@ -5171,17 +5171,305 @@
     "listing": 6,
     "fence_language": "php",
     "repo_path": "it/parte-09/cap-31/listing-06.php",
-    "tag": "localized-v4-chapter-31",
-    "url": "https://github.com/hidran/php-la-guida-completa-code/blob/localized-v4-chapter-31/it/parte-09/cap-31/listing-06.php"
+    "tag": "localized-v5-chapter-31",
+    "url": "https://github.com/hidran/php-la-guida-completa-code/blob/localized-v5-chapter-31/it/parte-09/cap-31/listing-06.php"
   },
   {
     "edition": "it",
     "source_markdown": "parte-09/cap-31.md",
     "listing": 7,
+    "fence_language": "bash",
+    "repo_path": "it/parte-09/cap-31/listing-07.sh",
+    "tag": "localized-v5-chapter-31",
+    "url": "https://github.com/hidran/php-la-guida-completa-code/blob/localized-v5-chapter-31/it/parte-09/cap-31/listing-07.sh"
+  },
+  {
+    "edition": "it",
+    "source_markdown": "parte-09/cap-31.md",
+    "listing": 8,
+    "fence_language": "bash",
+    "repo_path": "it/parte-09/cap-31/listing-08.sh",
+    "tag": "localized-v5-chapter-31",
+    "url": "https://github.com/hidran/php-la-guida-completa-code/blob/localized-v5-chapter-31/it/parte-09/cap-31/listing-08.sh"
+  },
+  {
+    "edition": "it",
+    "source_markdown": "parte-09/cap-31.md",
+    "listing": 9,
+    "fence_language": "json",
+    "repo_path": "it/parte-09/cap-31/listing-09.json",
+    "tag": "localized-v5-chapter-31",
+    "url": "https://github.com/hidran/php-la-guida-completa-code/blob/localized-v5-chapter-31/it/parte-09/cap-31/listing-09.json"
+  },
+  {
+    "edition": "it",
+    "source_markdown": "parte-09/cap-31.md",
+    "listing": 10,
     "fence_language": "text",
-    "repo_path": "it/parte-09/cap-31/listing-07.txt",
-    "tag": "localized-v4-chapter-31",
-    "url": "https://github.com/hidran/php-la-guida-completa-code/blob/localized-v4-chapter-31/it/parte-09/cap-31/listing-07.txt"
+    "repo_path": "it/parte-09/cap-31/listing-10.txt",
+    "tag": "localized-v5-chapter-31",
+    "url": "https://github.com/hidran/php-la-guida-completa-code/blob/localized-v5-chapter-31/it/parte-09/cap-31/listing-10.txt"
+  },
+  {
+    "edition": "it",
+    "source_markdown": "parte-09/cap-31.md",
+    "listing": 11,
+    "fence_language": "php",
+    "repo_path": "it/parte-09/cap-31/listing-11.php",
+    "tag": "localized-v5-chapter-31",
+    "url": "https://github.com/hidran/php-la-guida-completa-code/blob/localized-v5-chapter-31/it/parte-09/cap-31/listing-11.php"
+  },
+  {
+    "edition": "it",
+    "source_markdown": "parte-09/cap-31.md",
+    "listing": 12,
+    "fence_language": "php",
+    "repo_path": "it/parte-09/cap-31/listing-12.php",
+    "tag": "localized-v5-chapter-31",
+    "url": "https://github.com/hidran/php-la-guida-completa-code/blob/localized-v5-chapter-31/it/parte-09/cap-31/listing-12.php"
+  },
+  {
+    "edition": "it",
+    "source_markdown": "parte-09/cap-31.md",
+    "listing": 13,
+    "fence_language": "text",
+    "repo_path": "it/parte-09/cap-31/listing-13.txt",
+    "tag": "localized-v5-chapter-31",
+    "url": "https://github.com/hidran/php-la-guida-completa-code/blob/localized-v5-chapter-31/it/parte-09/cap-31/listing-13.txt"
+  },
+  {
+    "edition": "en",
+    "source_markdown": "parte-09/cap-31.md",
+    "listing": 1,
+    "fence_language": "text",
+    "repo_path": "en/parte-09/cap-31/listing-01.txt",
+    "tag": "localized-v5-chapter-31",
+    "url": "https://github.com/hidran/php-la-guida-completa-code/blob/localized-v5-chapter-31/en/parte-09/cap-31/listing-01.txt"
+  },
+  {
+    "edition": "en",
+    "source_markdown": "parte-09/cap-31.md",
+    "listing": 2,
+    "fence_language": "php",
+    "repo_path": "en/parte-09/cap-31/listing-02.php",
+    "tag": "localized-v5-chapter-31",
+    "url": "https://github.com/hidran/php-la-guida-completa-code/blob/localized-v5-chapter-31/en/parte-09/cap-31/listing-02.php"
+  },
+  {
+    "edition": "en",
+    "source_markdown": "parte-09/cap-31.md",
+    "listing": 3,
+    "fence_language": "php",
+    "repo_path": "en/parte-09/cap-31/listing-03.php",
+    "tag": "localized-v5-chapter-31",
+    "url": "https://github.com/hidran/php-la-guida-completa-code/blob/localized-v5-chapter-31/en/parte-09/cap-31/listing-03.php"
+  },
+  {
+    "edition": "en",
+    "source_markdown": "parte-09/cap-31.md",
+    "listing": 4,
+    "fence_language": "php",
+    "repo_path": "en/parte-09/cap-31/listing-04.php",
+    "tag": "localized-v5-chapter-31",
+    "url": "https://github.com/hidran/php-la-guida-completa-code/blob/localized-v5-chapter-31/en/parte-09/cap-31/listing-04.php"
+  },
+  {
+    "edition": "en",
+    "source_markdown": "parte-09/cap-31.md",
+    "listing": 5,
+    "fence_language": "php",
+    "repo_path": "en/parte-09/cap-31/listing-05.php",
+    "tag": "localized-v5-chapter-31",
+    "url": "https://github.com/hidran/php-la-guida-completa-code/blob/localized-v5-chapter-31/en/parte-09/cap-31/listing-05.php"
+  },
+  {
+    "edition": "en",
+    "source_markdown": "parte-09/cap-31.md",
+    "listing": 6,
+    "fence_language": "php",
+    "repo_path": "en/parte-09/cap-31/listing-06.php",
+    "tag": "localized-v5-chapter-31",
+    "url": "https://github.com/hidran/php-la-guida-completa-code/blob/localized-v5-chapter-31/en/parte-09/cap-31/listing-06.php"
+  },
+  {
+    "edition": "en",
+    "source_markdown": "parte-09/cap-31.md",
+    "listing": 7,
+    "fence_language": "bash",
+    "repo_path": "en/parte-09/cap-31/listing-07.sh",
+    "tag": "localized-v5-chapter-31",
+    "url": "https://github.com/hidran/php-la-guida-completa-code/blob/localized-v5-chapter-31/en/parte-09/cap-31/listing-07.sh"
+  },
+  {
+    "edition": "en",
+    "source_markdown": "parte-09/cap-31.md",
+    "listing": 8,
+    "fence_language": "bash",
+    "repo_path": "en/parte-09/cap-31/listing-08.sh",
+    "tag": "localized-v5-chapter-31",
+    "url": "https://github.com/hidran/php-la-guida-completa-code/blob/localized-v5-chapter-31/en/parte-09/cap-31/listing-08.sh"
+  },
+  {
+    "edition": "en",
+    "source_markdown": "parte-09/cap-31.md",
+    "listing": 9,
+    "fence_language": "json",
+    "repo_path": "en/parte-09/cap-31/listing-09.json",
+    "tag": "localized-v5-chapter-31",
+    "url": "https://github.com/hidran/php-la-guida-completa-code/blob/localized-v5-chapter-31/en/parte-09/cap-31/listing-09.json"
+  },
+  {
+    "edition": "en",
+    "source_markdown": "parte-09/cap-31.md",
+    "listing": 10,
+    "fence_language": "text",
+    "repo_path": "en/parte-09/cap-31/listing-10.txt",
+    "tag": "localized-v5-chapter-31",
+    "url": "https://github.com/hidran/php-la-guida-completa-code/blob/localized-v5-chapter-31/en/parte-09/cap-31/listing-10.txt"
+  },
+  {
+    "edition": "en",
+    "source_markdown": "parte-09/cap-31.md",
+    "listing": 11,
+    "fence_language": "php",
+    "repo_path": "en/parte-09/cap-31/listing-11.php",
+    "tag": "localized-v5-chapter-31",
+    "url": "https://github.com/hidran/php-la-guida-completa-code/blob/localized-v5-chapter-31/en/parte-09/cap-31/listing-11.php"
+  },
+  {
+    "edition": "en",
+    "source_markdown": "parte-09/cap-31.md",
+    "listing": 12,
+    "fence_language": "php",
+    "repo_path": "en/parte-09/cap-31/listing-12.php",
+    "tag": "localized-v5-chapter-31",
+    "url": "https://github.com/hidran/php-la-guida-completa-code/blob/localized-v5-chapter-31/en/parte-09/cap-31/listing-12.php"
+  },
+  {
+    "edition": "en",
+    "source_markdown": "parte-09/cap-31.md",
+    "listing": 13,
+    "fence_language": "text",
+    "repo_path": "en/parte-09/cap-31/listing-13.txt",
+    "tag": "localized-v5-chapter-31",
+    "url": "https://github.com/hidran/php-la-guida-completa-code/blob/localized-v5-chapter-31/en/parte-09/cap-31/listing-13.txt"
+  },
+  {
+    "edition": "es",
+    "source_markdown": "parte-09/cap-31.md",
+    "listing": 1,
+    "fence_language": "text",
+    "repo_path": "es/parte-09/cap-31/listing-01.txt",
+    "tag": "localized-v5-chapter-31",
+    "url": "https://github.com/hidran/php-la-guida-completa-code/blob/localized-v5-chapter-31/es/parte-09/cap-31/listing-01.txt"
+  },
+  {
+    "edition": "es",
+    "source_markdown": "parte-09/cap-31.md",
+    "listing": 2,
+    "fence_language": "php",
+    "repo_path": "es/parte-09/cap-31/listing-02.php",
+    "tag": "localized-v5-chapter-31",
+    "url": "https://github.com/hidran/php-la-guida-completa-code/blob/localized-v5-chapter-31/es/parte-09/cap-31/listing-02.php"
+  },
+  {
+    "edition": "es",
+    "source_markdown": "parte-09/cap-31.md",
+    "listing": 3,
+    "fence_language": "php",
+    "repo_path": "es/parte-09/cap-31/listing-03.php",
+    "tag": "localized-v5-chapter-31",
+    "url": "https://github.com/hidran/php-la-guida-completa-code/blob/localized-v5-chapter-31/es/parte-09/cap-31/listing-03.php"
+  },
+  {
+    "edition": "es",
+    "source_markdown": "parte-09/cap-31.md",
+    "listing": 4,
+    "fence_language": "php",
+    "repo_path": "es/parte-09/cap-31/listing-04.php",
+    "tag": "localized-v5-chapter-31",
+    "url": "https://github.com/hidran/php-la-guida-completa-code/blob/localized-v5-chapter-31/es/parte-09/cap-31/listing-04.php"
+  },
+  {
+    "edition": "es",
+    "source_markdown": "parte-09/cap-31.md",
+    "listing": 5,
+    "fence_language": "php",
+    "repo_path": "es/parte-09/cap-31/listing-05.php",
+    "tag": "localized-v5-chapter-31",
+    "url": "https://github.com/hidran/php-la-guida-completa-code/blob/localized-v5-chapter-31/es/parte-09/cap-31/listing-05.php"
+  },
+  {
+    "edition": "es",
+    "source_markdown": "parte-09/cap-31.md",
+    "listing": 6,
+    "fence_language": "php",
+    "repo_path": "es/parte-09/cap-31/listing-06.php",
+    "tag": "localized-v5-chapter-31",
+    "url": "https://github.com/hidran/php-la-guida-completa-code/blob/localized-v5-chapter-31/es/parte-09/cap-31/listing-06.php"
+  },
+  {
+    "edition": "es",
+    "source_markdown": "parte-09/cap-31.md",
+    "listing": 7,
+    "fence_language": "bash",
+    "repo_path": "es/parte-09/cap-31/listing-07.sh",
+    "tag": "localized-v5-chapter-31",
+    "url": "https://github.com/hidran/php-la-guida-completa-code/blob/localized-v5-chapter-31/es/parte-09/cap-31/listing-07.sh"
+  },
+  {
+    "edition": "es",
+    "source_markdown": "parte-09/cap-31.md",
+    "listing": 8,
+    "fence_language": "bash",
+    "repo_path": "es/parte-09/cap-31/listing-08.sh",
+    "tag": "localized-v5-chapter-31",
+    "url": "https://github.com/hidran/php-la-guida-completa-code/blob/localized-v5-chapter-31/es/parte-09/cap-31/listing-08.sh"
+  },
+  {
+    "edition": "es",
+    "source_markdown": "parte-09/cap-31.md",
+    "listing": 9,
+    "fence_language": "json",
+    "repo_path": "es/parte-09/cap-31/listing-09.json",
+    "tag": "localized-v5-chapter-31",
+    "url": "https://github.com/hidran/php-la-guida-completa-code/blob/localized-v5-chapter-31/es/parte-09/cap-31/listing-09.json"
+  },
+  {
+    "edition": "es",
+    "source_markdown": "parte-09/cap-31.md",
+    "listing": 10,
+    "fence_language": "text",
+    "repo_path": "es/parte-09/cap-31/listing-10.txt",
+    "tag": "localized-v5-chapter-31",
+    "url": "https://github.com/hidran/php-la-guida-completa-code/blob/localized-v5-chapter-31/es/parte-09/cap-31/listing-10.txt"
+  },
+  {
+    "edition": "es",
+    "source_markdown": "parte-09/cap-31.md",
+    "listing": 11,
+    "fence_language": "php",
+    "repo_path": "es/parte-09/cap-31/listing-11.php",
+    "tag": "localized-v5-chapter-31",
+    "url": "https://github.com/hidran/php-la-guida-completa-code/blob/localized-v5-chapter-31/es/parte-09/cap-31/listing-11.php"
+  },
+  {
+    "edition": "es",
+    "source_markdown": "parte-09/cap-31.md",
+    "listing": 12,
+    "fence_language": "php",
+    "repo_path": "es/parte-09/cap-31/listing-12.php",
+    "tag": "localized-v5-chapter-31",
+    "url": "https://github.com/hidran/php-la-guida-completa-code/blob/localized-v5-chapter-31/es/parte-09/cap-31/listing-12.php"
+  },
+  {
+    "edition": "es",
+    "source_markdown": "parte-09/cap-31.md",
+    "listing": 13,
+    "fence_language": "text",
+    "repo_path": "es/parte-09/cap-31/listing-13.txt",
+    "tag": "localized-v5-chapter-31",
+    "url": "https://github.com/hidran/php-la-guida-completa-code/blob/localized-v5-chapter-31/es/parte-09/cap-31/listing-13.txt"
   },
   {
     "edition": "it",
@@ -10846,69 +11134,6 @@
   },
   {
     "edition": "en",
-    "source_markdown": "parte-09/cap-31.md",
-    "listing": 1,
-    "fence_language": "bash",
-    "repo_path": "en/parte-09/cap-31/listing-01.sh",
-    "tag": "localized-v4-chapter-31",
-    "url": "https://github.com/hidran/php-la-guida-completa-code/blob/localized-v4-chapter-31/en/parte-09/cap-31/listing-01.sh"
-  },
-  {
-    "edition": "en",
-    "source_markdown": "parte-09/cap-31.md",
-    "listing": 2,
-    "fence_language": "bash",
-    "repo_path": "en/parte-09/cap-31/listing-02.sh",
-    "tag": "localized-v4-chapter-31",
-    "url": "https://github.com/hidran/php-la-guida-completa-code/blob/localized-v4-chapter-31/en/parte-09/cap-31/listing-02.sh"
-  },
-  {
-    "edition": "en",
-    "source_markdown": "parte-09/cap-31.md",
-    "listing": 3,
-    "fence_language": "json",
-    "repo_path": "en/parte-09/cap-31/listing-03.json",
-    "tag": "localized-v4-chapter-31",
-    "url": "https://github.com/hidran/php-la-guida-completa-code/blob/localized-v4-chapter-31/en/parte-09/cap-31/listing-03.json"
-  },
-  {
-    "edition": "en",
-    "source_markdown": "parte-09/cap-31.md",
-    "listing": 4,
-    "fence_language": "text",
-    "repo_path": "en/parte-09/cap-31/listing-04.txt",
-    "tag": "localized-v4-chapter-31",
-    "url": "https://github.com/hidran/php-la-guida-completa-code/blob/localized-v4-chapter-31/en/parte-09/cap-31/listing-04.txt"
-  },
-  {
-    "edition": "en",
-    "source_markdown": "parte-09/cap-31.md",
-    "listing": 5,
-    "fence_language": "php",
-    "repo_path": "en/parte-09/cap-31/listing-05.php",
-    "tag": "localized-v4-chapter-31",
-    "url": "https://github.com/hidran/php-la-guida-completa-code/blob/localized-v4-chapter-31/en/parte-09/cap-31/listing-05.php"
-  },
-  {
-    "edition": "en",
-    "source_markdown": "parte-09/cap-31.md",
-    "listing": 6,
-    "fence_language": "php",
-    "repo_path": "en/parte-09/cap-31/listing-06.php",
-    "tag": "localized-v4-chapter-31",
-    "url": "https://github.com/hidran/php-la-guida-completa-code/blob/localized-v4-chapter-31/en/parte-09/cap-31/listing-06.php"
-  },
-  {
-    "edition": "en",
-    "source_markdown": "parte-09/cap-31.md",
-    "listing": 7,
-    "fence_language": "text",
-    "repo_path": "en/parte-09/cap-31/listing-07.txt",
-    "tag": "localized-v4-chapter-31",
-    "url": "https://github.com/hidran/php-la-guida-completa-code/blob/localized-v4-chapter-31/en/parte-09/cap-31/listing-07.txt"
-  },
-  {
-    "edition": "en",
     "source_markdown": "parte-09/cap-32.md",
     "listing": 1,
     "fence_language": "php",
@@ -16567,69 +16792,6 @@
     "repo_path": "es/parte-08/cap-30/listing-09.php",
     "tag": "localized-v4-chapter-30",
     "url": "https://github.com/hidran/php-la-guida-completa-code/blob/localized-v4-chapter-30/es/parte-08/cap-30/listing-09.php"
-  },
-  {
-    "edition": "es",
-    "source_markdown": "parte-09/cap-31.md",
-    "listing": 1,
-    "fence_language": "bash",
-    "repo_path": "es/parte-09/cap-31/listing-01.sh",
-    "tag": "localized-v4-chapter-31",
-    "url": "https://github.com/hidran/php-la-guida-completa-code/blob/localized-v4-chapter-31/es/parte-09/cap-31/listing-01.sh"
-  },
-  {
-    "edition": "es",
-    "source_markdown": "parte-09/cap-31.md",
-    "listing": 2,
-    "fence_language": "bash",
-    "repo_path": "es/parte-09/cap-31/listing-02.sh",
-    "tag": "localized-v4-chapter-31",
-    "url": "https://github.com/hidran/php-la-guida-completa-code/blob/localized-v4-chapter-31/es/parte-09/cap-31/listing-02.sh"
-  },
-  {
-    "edition": "es",
-    "source_markdown": "parte-09/cap-31.md",
-    "listing": 3,
-    "fence_language": "json",
-    "repo_path": "es/parte-09/cap-31/listing-03.json",
-    "tag": "localized-v4-chapter-31",
-    "url": "https://github.com/hidran/php-la-guida-completa-code/blob/localized-v4-chapter-31/es/parte-09/cap-31/listing-03.json"
-  },
-  {
-    "edition": "es",
-    "source_markdown": "parte-09/cap-31.md",
-    "listing": 4,
-    "fence_language": "text",
-    "repo_path": "es/parte-09/cap-31/listing-04.txt",
-    "tag": "localized-v4-chapter-31",
-    "url": "https://github.com/hidran/php-la-guida-completa-code/blob/localized-v4-chapter-31/es/parte-09/cap-31/listing-04.txt"
-  },
-  {
-    "edition": "es",
-    "source_markdown": "parte-09/cap-31.md",
-    "listing": 5,
-    "fence_language": "php",
-    "repo_path": "es/parte-09/cap-31/listing-05.php",
-    "tag": "localized-v4-chapter-31",
-    "url": "https://github.com/hidran/php-la-guida-completa-code/blob/localized-v4-chapter-31/es/parte-09/cap-31/listing-05.php"
-  },
-  {
-    "edition": "es",
-    "source_markdown": "parte-09/cap-31.md",
-    "listing": 6,
-    "fence_language": "php",
-    "repo_path": "es/parte-09/cap-31/listing-06.php",
-    "tag": "localized-v4-chapter-31",
-    "url": "https://github.com/hidran/php-la-guida-completa-code/blob/localized-v4-chapter-31/es/parte-09/cap-31/listing-06.php"
-  },
-  {
-    "edition": "es",
-    "source_markdown": "parte-09/cap-31.md",
-    "listing": 7,
-    "fence_language": "text",
-    "repo_path": "es/parte-09/cap-31/listing-07.txt",
-    "tag": "localized-v4-chapter-31",
-    "url": "https://github.com/hidran/php-la-guida-completa-code/blob/localized-v4-chapter-31/es/parte-09/cap-31/listing-07.txt"
   },
   {
     "edition": "es",

@@ -1,0 +1,27 @@
+freeblog/
+  public/
+    index.php
+  core/
+    bootstrap.php
+    Router.php
+  config/
+    app.config.php
+    database.php
+  db/
+    DbFactory.php
+    DbPdo.php
+  app/
+    controllers/
+      BaseController.php
+      LoginController.php
+      PostController.php
+    models/
+      Comment.php
+      Post.php
+      User.php
+    views/
+      posts.tpl.php
+      post.tpl.php
+      login.tpl.php
+  layout/
+    index.tpl.php

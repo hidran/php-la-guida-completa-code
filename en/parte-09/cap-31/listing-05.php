@@ -1,7 +1,10 @@
 <?php
 
-declare(strict_types=1);
+public function show(int $postid): void
+{
+    $post = $this->post->findByPostId($postid);
+    $comment = new Comment($this->conn);
+    $comments = $comment->all($postid);
 
-require dirname(__DIR__) . '/vendor/autoload.php';
-
-(new App\Kernel(dirname(__DIR__)))->handle();
+    $this->content = view('post', compact('post', 'comments'));
+}
