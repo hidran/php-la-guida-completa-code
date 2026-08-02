@@ -1,8 +1,8 @@
 <?php
-$text = "Ciao {name}, benvenuto in {course}.";
+$text = "Ciao {name}, benvenuto in {topic}.";
 
 echo str_replace(
-    ["{name}", "{course}"],
+    ["{name}", "{topic}"],
     ["Mario", "PHP"],
     $text
 );

@@ -1,4 +1,4 @@
 <?php
-$title = "Basic PHP course";
+$title = "Basic PHP guide";
 
-echo str_replace("base", "complete", $title);
+echo str_replace("Basic", "Complete", $title);

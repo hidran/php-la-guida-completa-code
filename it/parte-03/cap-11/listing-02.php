@@ -1,5 +1,5 @@
 <?php
-$url = "https://example.com/corso/php";
+$url = "https://example.com/manuale/php";
 
 if (strpos($url, "php") !== false) {
     echo "La stringa contiene php";
