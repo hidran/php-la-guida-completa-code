@@ -22,6 +22,6 @@ final class Router
         }
 
         return $this->matchRoute($routes, $segment)
-            ?: throw new Exception('No route matched');
+            ?: throw new Exception('Ninguna ruta encontrada');
     }
 }

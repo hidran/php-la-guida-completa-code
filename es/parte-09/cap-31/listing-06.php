@@ -6,11 +6,11 @@ final class PostController extends BaseController
 {
     public function getPosts(): void
     {
-        $this->content = 'Post list';
+        $this->content = 'Lista de posts';
     }
 
     public function show(int $postId): void
     {
-        $this->content = 'Post detail: ' . $postId;
+        $this->content = 'Detalle del post: ' . $postId;
     }
 }
