@@ -1,8 +1,16 @@
 <?php
-class ConnectionFactory
+
+declare(strict_types=1);
+
+final class Post
 {
-    public static function make(array $config): PDO
-    {
-        return new PDO($config["dsn"], $config["user"], $config["password"]);
+    public function __construct(
+        public readonly int $id,
+        public readonly string $title,
+        public readonly string $message,
+        public readonly int $userId,
+        public readonly string $datecreated,
+        public readonly string $email,
+    ) {
     }
 }

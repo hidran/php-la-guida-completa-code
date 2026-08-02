@@ -1,17 +1,24 @@
 <?php
-namespace App\Models;
 
-use App\Core\Database;
-use PDO;
+declare(strict_types=1);
 
-class Post
+class PostRepository
 {
-    public function all(): array
+    public function __construct(protected readonly PDO $pdo)
     {
-        $stmt = Database::connection()->query(
-            "SELECT id, user_id, title, body, created_at FROM posts ORDER BY created_at DESC"
-        );
+    }
 
-        return $stmt->fetchAll(PDO::FETCH_ASSOC);
+    public function findById(int $id): ?Post
+    {
+        $sql = 'SELECT p.*, u.email FROM posts p '
+             . 'INNER JOIN users u ON u.id = p.user_id '
+             . 'WHERE p.id = :id';
+
+        $stmt = $this->pdo->prepare($sql);
+        $stmt->execute(['id' => $id]);
+
+        $row = $stmt->fetch();
+
+        return $row === false ? null : Post::fromRow($row);
     }
 }

@@ -1,14 +1,13 @@
 <?php
-require __DIR__ . "/../vendor/autoload.php";
 
-$router = new Router();
+declare(strict_types=1);
 
-foreach (require __DIR__ . "/../config/routes.php" as $route) {
-    [$method, $path, $handler] = $route;
-    $router->add($method, $path, $handler);
+final class Router implements RequestHandlerInterface
+{
+    private readonly LeagueRouter $router;
+
+    public function handle(ServerRequestInterface $request): ResponseInterface
+    {
+        return $this->router->handle($request);
+    }
 }
-
-echo $router->dispatch(
-    $_SERVER["REQUEST_METHOD"],
-    parse_url($_SERVER["REQUEST_URI"], PHP_URL_PATH)
-);

@@ -1,19 +1,16 @@
 <?php
-namespace App\Controllers;
 
-class PostController
+declare(strict_types=1);
+
+public function handle(): void
 {
-    public function index(): string
-    {
-        return view("posts/index", [
-            "posts" => [],
-        ]);
-    }
+    $this->loadEnv();
+    session_start();
 
-    public function show(int $id): string
-    {
-        return view("posts/show", [
-            "id" => $id,
-        ]);
-    }
+    $container = $this->buildContainer();
+    $request = $this->buildRequest();
+
+    $response = $container->get(Router::class)->handle($request);
+
+    $this->emit($response);
 }

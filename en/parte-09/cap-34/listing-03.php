@@ -1,12 +1,16 @@
 <?php
-public function show(int $id): string
+
+declare(strict_types=1);
+
+public function testLoginRejectsUnknownUser(): void
 {
-    $post = $this->posts->find($id);
+    $repo = $this->createMock(UserRepositoryInterface::class);
+    $repo->method('findByEmail')->willReturn(null);
 
-    if (!$post) {
-        http_response_code(404);
-        return render("errors/404");
-    }
+    $service = new AuthService($repo);
 
-    return render("posts/show", ["post" => $post]);
+    self::assertSame(
+        'USER NOT FOUND',
+        $service->verifyLogin('a@b.co', 'secret123', 't', 't')->message
+    );
 }

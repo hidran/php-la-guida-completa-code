@@ -1,9 +1,13 @@
 <?php
-use App\Controllers\PostController;
 
-return [
-    ["GET", "/", [PostController::class, "index"]],
-    ["GET", "/posts/create", [PostController::class, "create"]],
-    ["POST", "/posts", [PostController::class, "store"]],
-    ["GET", "/posts/{id}", [PostController::class, "show"]],
-];
+declare(strict_types=1);
+
+public function testParameterizedMatchExtractsParams(): void
+{
+    $router = new Router($this->routes());
+
+    $this->assertSame(
+        ['Ctrl', 'show', ['42']],
+        $router->dispatch('GET', '/posts/42')
+    );
+}

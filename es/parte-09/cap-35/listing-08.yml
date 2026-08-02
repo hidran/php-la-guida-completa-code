@@ -1,0 +1,9 @@
+jobs:
+  quality:
+    strategy:
+      matrix:
+        php: ["8.4", "8.5"]
+    steps:
+      - run: composer cs
+      - run: composer stan
+      - run: composer test

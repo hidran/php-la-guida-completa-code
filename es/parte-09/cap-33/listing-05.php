@@ -1,13 +1,18 @@
 <?php
-public function find(int $id): ?array
+
+declare(strict_types=1);
+
+public function save(array $data): int
 {
-    $stmt = Database::connection()->prepare(
-        "SELECT id, user_id, title, body, created_at FROM posts WHERE id = :id"
-    );
+    $sql = 'INSERT INTO posts (title, user_id, message, datecreated) '
+         . 'VALUES (:title, :user_id, :message, NOW())';
 
-    $stmt->execute(["id" => $id]);
+    $stmt = $this->pdo->prepare($sql);
+    $stmt->execute([
+        'title' => $data['title'],
+        'user_id' => $data['user_id'],
+        'message' => $data['message'],
+    ]);
 
-    $post = $stmt->fetch();
-
-    return $post ?: null;
+    return (int) $this->pdo->lastInsertId();
 }

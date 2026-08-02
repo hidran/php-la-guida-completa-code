@@ -1,13 +1,15 @@
 <?php
-class User
+
+declare(strict_types=1);
+
+public function check(ServerRequestInterface $request, array $args = []): ResponseInterface
 {
-    public function findByEmail(string $email): ?array
-    {
-        $stmt = $this->pdo->prepare("SELECT id, name, email, password FROM users WHERE email = :email");
-        $stmt->execute(["email" => $email]);
+    $db = $this->probe(function (): bool {
+        $stmt = $this->pdo->query('SELECT 1');
+        return $stmt !== false && (int) $stmt->fetchColumn() === 1;
+    });
 
-        $user = $stmt->fetch();
+    $status = $db === 'ok' ? 200 : 503;
 
-        return $user ?: null;
-    }
+    return $this->json(['db' => $db], $status);
 }

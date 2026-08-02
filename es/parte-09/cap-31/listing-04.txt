@@ -1,14 +1,3 @@
-blog/
-  public/
-    index.php
-    .htaccess
-  src/
-    Controllers/
-    Models/
-    Core/
-  views/
-    layout.php
-    posts/
-  config/
-    routes.php
-  vendor/
+App\Database\ConnectionFactory  ->  src/Database/ConnectionFactory.php
+App\Controllers\PostController  ->  src/Controllers/PostController.php
+App\Repositories\PostRepository ->  src/Repositories/PostRepository.php

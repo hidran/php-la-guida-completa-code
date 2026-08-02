@@ -1,14 +1,12 @@
 <?php
-namespace App\Controllers\Api;
 
-class PostController
+declare(strict_types=1);
+
+protected function json(array $data, int $status = 200): ResponseInterface
 {
-    public function index(): string
-    {
-        header("Content-Type: application/json");
-
-        return json_encode([
-            "data" => $this->posts->all(),
-        ], JSON_UNESCAPED_UNICODE);
-    }
+    return new Response(
+        $status,
+        ['Content-Type' => 'application/json'],
+        json_encode($data, JSON_THROW_ON_ERROR)
+    );
 }

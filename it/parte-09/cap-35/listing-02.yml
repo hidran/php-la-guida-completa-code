@@ -1,0 +1,14 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: deploy/docker/Dockerfile
+      target: runtime
+    environment:
+      APP_ENV: local
+      DB_HOST: mysql
+      REDIS_DSN: redis://:devpass@redis:6379/0
+
+  nginx:
+    image: nginx:1.27-alpine
+    ports: ["8080:80"]

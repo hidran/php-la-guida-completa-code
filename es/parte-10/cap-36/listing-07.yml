@@ -1,0 +1,7 @@
+for i in $(seq 1 30); do
+  if curl -fsS https://staging.phpenterpriseblog.example.com/healthz | grep -q '"db":"ok"'; then
+    echo "Smoke passed"; exit 0
+  fi
+  sleep 5
+done
+echo "Smoke failed"; exit 1

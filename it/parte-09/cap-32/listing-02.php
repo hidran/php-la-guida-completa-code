@@ -1,23 +1,20 @@
 <?php
-class Router
+
+declare(strict_types=1);
+
+final class Router
 {
-    private array $routes = [];
-
-    public function add(string $method, string $path, array $handler): void
+    public function dispatch(string $method, string $uri): array
     {
-        $this->routes[] = compact("method", "path", "handler");
-    }
+        foreach ($this->routes[$method] ?? [] as $path => $handler) {
+            $pattern = '#^' . preg_replace('/:([A-Za-z_][A-Za-z0-9_]*)/', '([^/]+)', trim($path, '/')) . '$#';
 
-    public function dispatch(string $method, string $uri): mixed
-    {
-        foreach ($this->routes as $route) {
-            if ($route["method"] === $method && $route["path"] === $uri) {
-                [$class, $action] = $route["handler"];
-                return (new $class())->$action();
+            if (preg_match($pattern, trim($uri, '/'), $matches)) {
+                array_shift($matches);
+                return [$handler[0], $handler[1], $matches];
             }
         }
 
-        http_response_code(404);
-        return "Pagina non trovata";
+        throw new RouteNotFoundException("No route for {$method} {$uri}");
     }
 }

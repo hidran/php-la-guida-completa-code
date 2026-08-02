@@ -1,0 +1,6 @@
+helm upgrade --install phpenterpriseblog deploy/helm/phpenterpriseblog \
+  --namespace phpenterpriseblog-prod \
+  --values deploy/helm/phpenterpriseblog/values.prod.yaml \
+  --set image.repository="$ECR_REGISTRY/phpenterpriseblog" \
+  --set image.tag="$IMAGE_TAG" \
+  --wait --timeout 10m --atomic
