@@ -1,10 +1,15 @@
 <?php
 
-public function show(int $postid): void
-{
-    $post = $this->post->findByPostId($postid);
-    $comment = new Comment($this->conn);
-    $comments = $comment->all($postid);
+namespace App\Controllers;
 
-    $this->content = view('post', compact('post', 'comments'));
+abstract class BaseController
+{
+    protected string $content = '';
+    protected string $tplDir = 'app/views/';
+    protected string $layout = 'layout/index.tpl.php';
+
+    public function display(): void
+    {
+        require $this->layout;
+    }
 }

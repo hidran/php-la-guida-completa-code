@@ -1,21 +1,22 @@
 <?php
 
-declare(strict_types=1);
+namespace App\Controllers;
 
-namespace App\Support;
+use App\Models\Post;
+use PDO;
 
-use RuntimeException;
-
-final class Env
+final class PostController extends BaseController
 {
-    public static function int(string $key, ?int $default = null): int
+    private Post $post;
+
+    public function __construct(private readonly PDO $conn)
     {
-        $raw = self::string($key, $default === null ? null : (string) $default);
+        $this->post = new Post($conn);
+    }
 
-        if (!preg_match('/^-?\d+$/', $raw)) {
-            throw new RuntimeException("Env var {$key} is not an integer: {$raw}");
-        }
-
-        return (int) $raw;
+    public function getPosts(): void
+    {
+        $posts = $this->post->all();
+        $this->content = view('posts', compact('posts'), $this->tplDir);
     }
 }

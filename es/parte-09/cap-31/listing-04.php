@@ -1,22 +1,15 @@
-<?php
-
-public function dispatch(): array
-{
-    $url = $_SERVER['REQUEST_URI'] ?? $_SERVER['REDIRECT_URL'];
-    $segment = trim(parse_url($url, PHP_URL_PATH), '/');
-    $segment = $segment ?: '/';
-    $method = $_SERVER['REQUEST_METHOD'];
-    $urls = $this->routes[$method];
-
-    if (array_key_exists($segment, $urls)) {
-        return $urls[$segment];
-    }
-
-    $ret = $this->matchRoute($urls, $segment);
-
-    if (!$ret) {
-        throw new Exception('No routes matched');
-    }
-
-    return $ret;
-}
+<!doctype html>
+<html lang="en" class="h-100">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Free blog</title>
+    <link href="/css/bootstrap.css" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
+</head>
+<body class="d-flex flex-column h-100">
+    <main class="flex-shrink-0 mx-3">
+        <?= $this->content ?>
+    </main>
+</body>
+</html>

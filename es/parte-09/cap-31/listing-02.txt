@@ -1,0 +1,22 @@
+freeblog/
+  public/
+    index.php
+    css/
+    js/
+  app/
+    controllers/
+    models/
+    views/
+  core/
+    bootstrap.php
+    Router.php
+  config/
+    app.config.php
+    database.php
+  db/
+    DbPdo.php
+    DbFactory.php
+  helpers/
+    functions.php
+  layout/
+    index.tpl.php

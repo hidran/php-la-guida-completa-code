@@ -1,3 +1,0 @@
-App\Database\ConnectionFactory  ->  src/Database/ConnectionFactory.php
-App\Controllers\PostController  ->  src/Controllers/PostController.php
-App\Repositories\PostRepository ->  src/Repositories/PostRepository.php
