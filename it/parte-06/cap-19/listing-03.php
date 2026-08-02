@@ -1,19 +1,19 @@
 <?php
-$config = require __DIR__ . "/config.php";
-$db = $config["db"];
 
-try {
-    $pdo = new PDO(
-        $db["dsn"],
-        $db["user"],
-        $db["password"],
-        [
-            PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
-            PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
-        ],
+declare(strict_types=1);
+function getConnection(): mysqli
+{
+    $config = require 'config.php';
+
+    $mysqli = new mysqli(
+        $config['mysql_host'],
+        $config['mysql_user'],
+        $config['mysql_password'],
+        $config['mysql_db']
     );
-} catch (PDOException $e) {
-    error_log($e->getMessage());
-    http_response_code(500);
-    exit("Errore interno");
+
+    if ($mysqli->connect_error) {
+        die($mysqli->connect_error);
+    }
+    return $mysqli;
 }

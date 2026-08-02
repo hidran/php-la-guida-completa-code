@@ -1,10 +1,9 @@
-<?php if (is_logged_in()): ?>
-  <a href="profile.php">Profilo</a>
-  <a href="logout.php">Logout</a>
-<?php else: ?>
-  <a href="login.php">Login</a>
-<?php endif; ?>
-
-<?php if (($_SESSION["role_type"] ?? null) === "admin"): ?>
-  <a href="users.php">Utenti</a>
-<?php endif; ?>
+if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
+    http_response_code(419);
+    exit('Invalid request method');
+}
+$fromAll = getParam('fromAll');
+if (!csrf_validate(post_string('csrf_token'))) {
+    http_response_code(419);
+    exit('Invalid token');
+}

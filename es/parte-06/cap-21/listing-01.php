@@ -1,0 +1,5 @@
+'uploadDir' => 'avatar',
+'mimeTypes' => ['image/jpeg', 'image/png', 'image/gif'],
+'maxFileSize' => convertMaxUploadSizeToBytes(),
+'thumbnailWidth' => 120,
+'intermediateWidth' => 800,

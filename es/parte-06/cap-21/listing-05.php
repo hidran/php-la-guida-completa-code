@@ -1,9 +1,12 @@
-<?php
-$finfo = new finfo(FILEINFO_MIME_TYPE);
-$mime = $finfo->file($_FILES["avatar"]["tmp_name"]);
-
-$allowed = ["image/jpeg", "image/png", "image/webp"];
-
-if (!in_array($mime, $allowed, true)) {
-    $errors["avatar"] = "Formato de imagen no compatible";
-}
+function handleAvatarUpload(array $file, ?int $userId = null): ?string
+{
+    $config = require 'config.php';
+    $uploadDir = $config['uploadDir'] ?? 'avatar';
+    $uploadDirPath = realpath(__DIR__) . '/' . $uploadDir . '/';
+    $mimeMap = [
+        'image/jpeg' => 'jpg',
+        'image/png' => 'png',
+        'image/gif' => 'gif'
+    ];
+    $fileinfo = new finfo(FILEINFO_MIME_TYPE);
+    $mimeType = $fileinfo->file($file['tmp_name']);

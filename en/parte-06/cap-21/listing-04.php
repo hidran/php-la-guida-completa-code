@@ -1,6 +1,12 @@
-<?php
-$maxSize = 2 * 1024 * 1024;
+function validateFileUpload(array $file): array
+{
+    $errors = [];
 
-if ($_FILES["avatar"]["size"] > $maxSize) {
-    $errors["avatar"] = "The file exceeds 2 MB";
-}
+    if ($file['error'] !== UPLOAD_ERR_OK) {
+        $errors[] = getUploadError($file['error']);
+        return $errors;
+    }
+    $config = require 'config.php';
+
+    $fileinfo = new finfo(FILEINFO_MIME_TYPE);
+    $mimeType = $fileinfo->file($file['tmp_name']);

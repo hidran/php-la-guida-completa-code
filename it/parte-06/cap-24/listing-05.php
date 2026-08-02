@@ -1,7 +1,13 @@
-function base64_url_encode(string $bytes): string
+function tryAutoLogin(): void
 {
-    $res = base64_encode($bytes);
-    $res = strtr($res, ['+' => '-', '/' => '_']);
+    if (!empty($_SESSION['user_logged_in'])) {
+        return;
+    }
+    $cookieName = getConfig('rememberMeCookieName');
 
-    return rtrim($res, '=');
-}
+    $cookie = $_COOKIE[$cookieName] ?? '';
+
+    if (!$cookie || !str_contains($cookie, ':')) {
+        return;
+    }
+    [$selector, $token] = explode(':', $cookie);

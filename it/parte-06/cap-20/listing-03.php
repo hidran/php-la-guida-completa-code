@@ -1,9 +1,14 @@
 <?php
-$stmt = $pdo->prepare(
-    "INSERT INTO users (first_name, email) VALUES (:first_name, :email)"
-);
 
-$stmt->execute([
-    "first_name" => $firstName,
-    "email" => $email,
-]);
+$action = 'store';
+$buttonName = 'SAVE';
+$formTile = 'INSERT USER';
+if ($user && $user['id']) {
+    $action = 'update';
+    $buttonName = 'UPDATE';
+    $formTile = 'UPDATE USER';
+}
+foreach ($user as &$value) {
+    $value = htmlspecialchars($value ?? '');
+}
+?>

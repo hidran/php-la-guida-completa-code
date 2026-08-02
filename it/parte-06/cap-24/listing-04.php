@@ -1,13 +1,15 @@
-$user = verify_login($pdo, $email, $password);
+function getRememberCookieOpts(): array
+{
+    $ttl = getConfig('rememberMeTTL');
+    $secure = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off');
 
-if (!$user) {
-    // credenziali errate: mostriamo l'errore, come nel Capitolo 23
-} else {
-    // login riuscito: la sessione viene creata come nel Capitolo 23
+    return [
 
-    if ($remember) {
-        save_remember_me($pdo, (int)$user['id']);
-    }
-
-    // redirect alla pagina di login, come nel Capitolo 23
+        'expires' => time() + $ttl,
+        'path' => '/',
+        'domain' => '',
+        'secure' => $secure,
+        'httponly' => true,
+        'samesite' => 'Strict'
+    ];
 }

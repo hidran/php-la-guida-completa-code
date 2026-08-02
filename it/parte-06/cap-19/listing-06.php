@@ -1,8 +1,20 @@
-<?php require __DIR__ . "/../templates/header.php"; ?>
-<?php require __DIR__ . "/../templates/top.php"; ?>
+<?php
 
-<main class="container">
-    <?php require $view; ?>
-</main>
+declare(strict_types=1);
+$orderBy = $orderBy ?? 'ASC';
+$recordsPerPage = $recordsPerPage ?? 10;
+$search = $search ?? '';
+$currentPage = $currentPage ?? 1;
+$currentOrderDir = $currentOrderDir ?? 'DESC';
+$params = [
+    'orderBy' => $orderBy,
+    'recordsPerPage' => $recordsPerPage,
+    'orderDir' => $currentOrderDir,
+    'search' => $search,
+    'page' => $currentPage
+];
+$totalRecords = getTotalUserCount($search);
 
-<?php require __DIR__ . "/../templates/footer.php"; ?>
+$users = $totalRecords ? getUsers($params) : [];
+
+require 'view/userList.php';

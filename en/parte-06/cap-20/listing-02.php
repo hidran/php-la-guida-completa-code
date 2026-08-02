@@ -1,13 +1,15 @@
-<?php
-$errors = [];
+function getTotalUserCount(string $search = ''): int
+{
+    $conn = getConnection();
 
-$firstName = trim($_POST["first_name"] ?? "");
-$email = trim($_POST["email"] ?? "");
-
-if ($firstName === "") {
-    $errors["first_name"] = "The first name is required";
-}
-
-if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-    $errors["email"] = "Invalid email";
-}
+    $sql = 'SELECT COUNT(*) as total FROM users';
+    if ($search) {
+        $sql .= ' WHERE';
+        if (is_numeric($search)) {
+            $sql .= " id = $search OR age = $search";
+        } else {
+            $search = $conn->real_escape_string($search);
+            $sql .= " fiscalcode like '%$search%' OR email like '%$search%' OR
+             username like '%$search%'";
+        }
+    }

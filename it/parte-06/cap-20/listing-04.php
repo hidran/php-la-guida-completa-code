@@ -1,14 +1,18 @@
-<?php
-$id = (int) ($_GET["id"] ?? 0);
+function storeUser(array $data): int
+{
+    $conn = getConnection();
+    $sql = 'INSERT INTO users (username,email,fiscalcode,age,avatar, password,role_type) values( ?, ?, ?,?,?,?,?)';
+    $stm = $conn->prepare($sql);
+    $password = password_hash($data['password'], PASSWORD_DEFAULT);
+    $stm->bind_param(
+        'sssisss',
+        $data['username'],
+        $data['email'],
+        $data['fiscalcode'],
+        $data['age'],
+        $data['avatar'],
+        $password,
+        $data['role_type']
 
-$stmt = $pdo->prepare(
-    "UPDATE users
-     SET first_name = :first_name, email = :email, updated_at = NOW()
-     WHERE id = :id"
-);
-
-$stmt->execute([
-    "first_name" => $firstName,
-    "email" => $email,
-    "id" => $id,
-]);
+    );
+    $stm->execute();

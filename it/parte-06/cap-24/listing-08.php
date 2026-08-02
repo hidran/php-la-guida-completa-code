@@ -1,3 +1,7 @@
-// config.php
-'remember_me_ttl'         => 60 * 60 * 24 * 30, // 30 giorni, in secondi
-'remember_me_cookie_name' => 'ums_remember_token',
+function rotateRememberToken(mysqli $conn, int $id): void
+{
+    $token = base64url_encode(random_bytes(33));
+    $tokenHash = hash('sha256', $token);
+    $ttl = getConfig('rememberMeTTL');
+    $expiresAt = (new DateTimeImmutable('+' . $ttl . ' seconds'))->format('Y-m-d H:i:s');
+    $sql = 'SELECT selector FROM remember_tokens WHERE id=?';

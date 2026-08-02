@@ -1,3 +1,7 @@
-$email    = $_POST['email'] ?? '';
-$password = $_POST['password'] ?? '';
-$remember = (int)($_POST['remember'] ?? 0);
+$value = $selector . ':' . $token;
+$cookieName = getConfig('rememberMeCookieName');
+
+$cookieOptions = getRememberCookieOpts();
+setcookie($cookieName, $value, $cookieOptions);
+
+return $res;

@@ -1,9 +1,4 @@
-<?php
-$extension = match ($mime) {
-    "image/jpeg" => "jpg",
-    "image/png" => "png",
-    "image/webp" => "webp",
-};
-
-$filename = bin2hex(random_bytes(16)) . "." . $extension;
-$destination = __DIR__ . "/../uploads/" . $filename;
+$extension = $mimeMap[$mimeType];
+$fileName = ($userId ? $userId . '_' : '') . bin2hex(random_bytes(8)) . '.' . $extension;
+$res = move_uploaded_file($file['tmp_name'], $uploadDirPath . $fileName);
+return $res ? $uploadDir . '/' . $fileName : null;

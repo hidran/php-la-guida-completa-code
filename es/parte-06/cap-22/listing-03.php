@@ -1,7 +1,6 @@
-<?php
-$stmt = $pdo->prepare("SELECT id FROM users WHERE email = :email");
-$stmt->execute(["email" => $email]);
-
-if ($stmt->fetch()) {
-    $errors["email"] = "Email ya registrada";
+function start_session(array $user): void
+{
+    session_regenerate_id(true);
+    $_SESSION['user_data'] = $user;
+    $_SESSION['user_logged_in'] = true;
 }

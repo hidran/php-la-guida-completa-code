@@ -1,11 +1,8 @@
-    // ...prepare ed execute come prima...
-
-    if (!$res) {
-        return false;
-    }
-
-    $value = $selector . ':' . $token;
-    setcookie(get_config('remember_me_cookie_name'), $value, get_remember_cookie_options());
-
-    return true;
+function revokeAllRememberMeTokens(int $userId): void
+{
+    $conn = getConnection();
+    $st = $conn->prepare('DELETE FROM remember_tokens WHERE user_id=?');
+    $st->bind_param('i', $userId);
+    $st->execute();
+    $st->close();
 }

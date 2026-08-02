@@ -1,58 +1,55 @@
-# PHP: La Guida Completa - Code Listings
+# PHP La Guida Completa - Code Listings
 
-Companion repository for the code examples extracted from `PHP: La Guida Completa` and its English and Spanish editions.
+Generated source listings extracted from the Italian, English, and Spanish manuscripts.
 
-## Editions
+Generation tag family: `localized-v4`
+Total listings: 1908
 
-- `it/` - Italian edition
-- `en/` - English edition
-- `es/` - Spanish edition
+## Listings by edition
 
-## Tags
+- `it`: 636
+- `en`: 636
+- `es`: 636
 
-Each source file with code has a stable localized tag. Links in the book point to the listing at the tag for that chapter or section.
+## Tag groups
 
-- `localized-v3-appendix-php85-checklist` - 6 listings
-- `localized-v3-chapter-02` - 87 listings
-- `localized-v3-chapter-03` - 39 listings
-- `localized-v3-chapter-04` - 54 listings
-- `localized-v3-chapter-05` - 27 listings
-- `localized-v3-chapter-06` - 99 listings
-- `localized-v3-chapter-07` - 219 listings
-- `localized-v3-chapter-08` - 111 listings
-- `localized-v3-chapter-09` - 114 listings
-- `localized-v3-chapter-10` - 153 listings
-- `localized-v3-chapter-11` - 36 listings
-- `localized-v3-chapter-12` - 48 listings
-- `localized-v3-chapter-13` - 75 listings
-- `localized-v3-chapter-14` - 21 listings
-- `localized-v3-chapter-15` - 141 listings
-- `localized-v3-chapter-16` - 69 listings
-- `localized-v3-chapter-17` - 36 listings
-- `localized-v3-chapter-18` - 51 listings
-- `localized-v3-chapter-19` - 27 listings
-- `localized-v3-chapter-20` - 39 listings
-- `localized-v3-chapter-21` - 36 listings
-- `localized-v3-chapter-22` - 42 listings
-- `localized-v3-chapter-23` - 27 listings
-- `localized-v3-chapter-24` - 72 listings
-- `localized-v3-chapter-25` - 30 listings
-- `localized-v3-chapter-26` - 36 listings
-- `localized-v3-chapter-27` - 36 listings
-- `localized-v3-chapter-28` - 30 listings
-- `localized-v3-chapter-29` - 30 listings
-- `localized-v3-chapter-30` - 27 listings
-- `localized-v3-chapter-31` - 24 listings
-- `localized-v3-chapter-32` - 24 listings
-- `localized-v3-chapter-33` - 24 listings
-- `localized-v3-chapter-34` - 24 listings
-- `localized-v3-chapter-35` - 30 listings
-- `localized-v3-chapter-36` - 21 listings
-- `localized-v3-chapter-37` - 18 listings
-- `localized-v3-chapter-38` - 18 listings
-- `localized-v3-chapter-39` - 15 listings
-- `localized-v3-front-matter-introduction` - 3 listings
-
-## Manifest
-
-See `manifest.json` for the complete mapping from book source files to repository paths and GitHub URLs.
+- `localized-v4-appendix-php85-checklist`: 6
+- `localized-v4-chapter-10`: 153
+- `localized-v4-chapter-11`: 36
+- `localized-v4-chapter-12`: 48
+- `localized-v4-chapter-13`: 75
+- `localized-v4-chapter-14`: 21
+- `localized-v4-chapter-15`: 141
+- `localized-v4-chapter-16`: 69
+- `localized-v4-chapter-17`: 36
+- `localized-v4-chapter-18`: 51
+- `localized-v4-chapter-19`: 21
+- `localized-v4-chapter-2`: 87
+- `localized-v4-chapter-20`: 18
+- `localized-v4-chapter-21`: 24
+- `localized-v4-chapter-22`: 21
+- `localized-v4-chapter-23`: 21
+- `localized-v4-chapter-24`: 30
+- `localized-v4-chapter-25`: 30
+- `localized-v4-chapter-26`: 36
+- `localized-v4-chapter-27`: 36
+- `localized-v4-chapter-28`: 30
+- `localized-v4-chapter-29`: 30
+- `localized-v4-chapter-3`: 39
+- `localized-v4-chapter-30`: 27
+- `localized-v4-chapter-31`: 21
+- `localized-v4-chapter-32`: 24
+- `localized-v4-chapter-33`: 24
+- `localized-v4-chapter-34`: 24
+- `localized-v4-chapter-35`: 30
+- `localized-v4-chapter-36`: 21
+- `localized-v4-chapter-37`: 18
+- `localized-v4-chapter-38`: 18
+- `localized-v4-chapter-39`: 15
+- `localized-v4-chapter-4`: 54
+- `localized-v4-chapter-5`: 27
+- `localized-v4-chapter-6`: 99
+- `localized-v4-chapter-7`: 219
+- `localized-v4-chapter-8`: 111
+- `localized-v4-chapter-9`: 114
+- `localized-v4-front-matter-introduction`: 3

@@ -1,8 +1,17 @@
 <?php
+
 return [
-    "db" => [
-        "dsn" => getenv("DB_DSN") ?: "mysql:host=localhost;dbname=php_guia;charset=utf8mb4",
-        "user" => getenv("DB_USER") ?: "root",
-        "password" => getenv("DB_PASSWORD") ?: "",
-    ],
+    'mysql_host' => 'db',
+    'mysql_user' => 'root',
+    'mysql_password' => 'hidran',
+    'mysql_db' => 'corsophp',
+    'recordsPerPage' => 10,
+    'maxLinks' => 10,
+    'orderByColumns' =>
+        ['id', 'username', 'fiscalcode', 'age', 'email', 'role_type'],
+    'uploadDir' => 'avatar',
+    'mimeTypes' => ['image/jpeg', 'image/png', 'image/gif'],
+    'roleTypes' => ['user', 'admin', 'editor'],
+    'rememberMeTTL' => 60 * 60 * 24 * 30,
+    'rememberMeCookieName' => 'ums_remember_token'
 ];
